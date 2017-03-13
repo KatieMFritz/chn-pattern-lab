@@ -1,0 +1,9 @@
+<ul class="sg-colors">
+  {% for key, value in colors %}
+  <li>
+    <span class="sg-swatch" style="background: {{ value }}"></span>
+    <span class="sg-label">{{ key }}</span><br>
+    <span class="sg-label">{{ value }}</span>
+  </li>
+  {% endfor %}
+</ul>

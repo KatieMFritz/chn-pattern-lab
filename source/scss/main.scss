@@ -1,0 +1,12 @@
+// Import globals
+@import "globals/reset";
+@import "globals/fonts";
+@import "globals/variables";
+@import "globals/colors";
+@import "globals/mixins";
+
+// Import all base styles
+@import "base/*.*";
+
+// Import all component styles
+@import "components/*/*.*"

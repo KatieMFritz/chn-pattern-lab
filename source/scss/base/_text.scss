@@ -1,0 +1,31 @@
+/* Text-Related Elements */
+// p {
+//   margin-bottom: $space;
+// }
+
+/* Blockquote */
+.c-quote {
+  background: url(../../images/quotes.png) no-repeat top left;
+  font-size: 1.25em;
+  margin: $space-inset-l;
+  padding: $space-inset-squish-m;
+  .c-quote__source {
+    display: block;
+    font-size: .75em;
+    font-style: italic;
+    margin-top: $space-default;
+  }
+}
+
+/* Horizontal Rule */
+hr {
+  border: 0;
+  height: 2px;
+  background: $gray-lightest;
+  margin: $space-default 0;
+}
+
+abbr {
+  border-bottom: 1px dotted $gray-light;
+  cursor: help;
+}

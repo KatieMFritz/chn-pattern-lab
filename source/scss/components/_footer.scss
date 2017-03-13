@@ -1,0 +1,19 @@
+.c-footer {
+  background-color: $tan;
+  padding: $space-default 0;
+  .c-footer__item {
+    flex: 1 1 14rem;
+    margin: $space-stack-m;
+    padding: $space-inset-m;
+    * {
+      margin: $space-stack-s;
+    }
+    .c-footer__image {
+      vertical-align: middle;
+      width: 7rem;
+      &:not(:last-child) {
+        margin-right: $space-s;
+      }
+    }
+  }
+}

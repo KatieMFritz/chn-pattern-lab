@@ -1,0 +1,36 @@
+.c-article {
+  background: $white;
+  line-height: 1.5;
+  > * {
+    margin: $space-stack-l;
+  }
+  .c-article__title {
+    border-bottom: 3px dotted $red;
+    color: $red;
+    font-family: $serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .c-article__section {
+    * {
+      margin: $space-stack-default;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: $space-xl;
+    }
+    *:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .c-article__section--intro {
+    background-color: $tan-light;
+    border: 5px solid $teal;
+    padding: $space-inset-squish-l;
+  }
+}
+
+.c-article__image {
+  padding: $space-inset-m;
+}
+

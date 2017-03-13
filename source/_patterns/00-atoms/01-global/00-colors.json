@@ -1,0 +1,12 @@
+{
+  "colors" : {
+    "$gray-dark" : "#231f20",
+    "$gray-light" : "#787772",
+    "$red" : "#d7153b",
+    "$tan" : "#e7e4d0",
+    "$tan-light": "#f2f1e9",
+    "$teal" : "#8dbcb0",
+    "$white" : "#ffffff",
+    "$color-text" : "#444"
+  }
+}

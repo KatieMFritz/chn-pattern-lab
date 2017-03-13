@@ -1,0 +1,355 @@
+/*
+   Sass Reset - Converted by Hampton Lintorn Catlin
+   A modification of the original found at...
+   http://meyerweb.com/eric/tools/css/reset/
+*/
+/* line 6, ../../scss/globals/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4,
+h5, h6, p, blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small,
+strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd,
+ol, ul, li, fieldset, form, label, data, legend, table, colgroup,
+caption, col, tbody, tfoot, thead, tr, th, td, article, aside,
+param, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video, source, track, map, area {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 22, ../../scss/globals/_reset.scss */
+article, aside, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../../scss/globals/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 27, ../../scss/globals/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 29, ../../scss/globals/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 32, ../../scss/globals/_reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 36, ../../scss/globals/_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 39, ../../scss/globals/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url('/chn/public/fonts/RobotoSlab-Bold/RobotoSlab-Bold-webfont.eot?1489370958');
+  src: url('/chn/public/fonts/RobotoSlab-Bold/RobotoSlab-Bold-webfont.eot?&1489370958#iefix') format('embedded-opentype'), url('/chn/public/fonts/RobotoSlab-Bold/RobotoSlab-Bold-webfont.woff?1489370958') format('woff'), url('/chn/public/fonts/RobotoSlab-Bold/RobotoSlab-Bold-webfont.ttf?1489370958') format('truetype'), url('/chn/public/fonts/RobotoSlab-Bold/RobotoSlab-Bold-webfont.svg?1489370958') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url('/chn/public/fonts/OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.eot?1489370953');
+  src: url('/chn/public/fonts/OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.eot?&1489370953#iefix') format('embedded-opentype'), url('/chn/public/fonts/OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.woff?1489370953') format('woff'), url('/chn/public/fonts/OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.ttf?1489370953') format('truetype'), url('/chn/public/fonts/OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.svg?1489370953') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url('/chn/public/fonts/OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.eot?1489370954');
+  src: url('/chn/public/fonts/OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.eot?&1489370954#iefix') format('embedded-opentype'), url('/chn/public/fonts/OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.woff?1489370954') format('woff'), url('/chn/public/fonts/OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.ttf?1489370954') format('truetype'), url('/chn/public/fonts/OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.svg?1489370954') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url('/chn/public/fonts/OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.eot?1489370954');
+  src: url('/chn/public/fonts/OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.eot?&1489370954#iefix') format('embedded-opentype'), url('/chn/public/fonts/OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.woff?1489370954') format('woff'), url('/chn/public/fonts/OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.ttf?1489370954') format('truetype'), url('/chn/public/fonts/OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.svg?1489370954') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url('/chn/public/fonts/OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.eot?1489370953');
+  src: url('/chn/public/fonts/OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.eot?&1489370953#iefix') format('embedded-opentype'), url('/chn/public/fonts/OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.woff?1489370953') format('woff'), url('/chn/public/fonts/OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.ttf?1489370953') format('truetype'), url('/chn/public/fonts/OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.svg?1489370953') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+/*------------------------------------*\
+    $MIXINS
+\*------------------------------------*/
+/* CSS Transition
+	Usage: @include transition(width,0.3s,ease-out);
+ */
+/* Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback  
+	Usage: @include font-size(1, large);
+*/
+/* line 1, ../../scss/base/_animation.scss */
+.u-animate--fade {
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -ms-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+/* line 4, ../../scss/base/_animation.scss */
+.u-animate--fade:hover {
+  opacity: 0;
+}
+
+/* line 10, ../../scss/base/_animation.scss */
+.u-animate--move > .demo-shape {
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+/* Headings */
+/*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
+/* line 3, ../../scss/base/_headings.scss */
+h1 {
+  border-bottom: 3px dotted #d7153b;
+  color: #d7153b;
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* line 11, ../../scss/base/_headings.scss */
+h2 {
+  color: #787772;
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* line 18, ../../scss/base/_headings.scss */
+h3 {
+  color: #787772;
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* line 25, ../../scss/base/_headings.scss */
+h4 {
+  color: #787772;
+  font-family: "Roboto Slab", Georgia, serif;
+  font-weight: bold;
+}
+
+/* Links */
+/* line 2, ../../scss/base/_links.scss */
+a {
+  color: #d7153b;
+  text-decoration: none;
+}
+/* line 5, ../../scss/base/_links.scss */
+a:hover, a:focus {
+  color: #a9102e;
+  text-decoration: underline;
+}
+
+/* line 1, ../../scss/base/_lists.scss */
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Definition Lists */
+/* line 8, ../../scss/base/_lists.scss */
+dl {
+  overflow: hidden;
+  margin: 0 0 16px 0;
+}
+
+/* line 13, ../../scss/base/_lists.scss */
+dt {
+  font-weight: bold;
+}
+
+/* line 17, ../../scss/base/_lists.scss */
+dd {
+  margin-left: 0;
+}
+
+/* line 1, ../../scss/base/_main.scss */
+body {
+  color: #444;
+  font-family: "Open Sans", "Helvetica", Arial, sans-serif;
+  line-height: 1.25;
+}
+
+/* Text-Related Elements */
+/* Blockquote */
+/* line 7, ../../scss/base/_text.scss */
+.c-quote {
+  background: url(../../images/quotes.png) no-repeat top left;
+  font-size: 1.25em;
+  margin: 32px 32px 32px 32px;
+  padding: 8px 16px 8px 16px;
+}
+/* line 12, ../../scss/base/_text.scss */
+.c-quote .c-quote__source {
+  display: block;
+  font-size: .75em;
+  font-style: italic;
+  margin-top: 16px;
+}
+
+/* Horizontal Rule */
+/* line 21, ../../scss/base/_text.scss */
+hr {
+  border: 0;
+  height: 2px;
+  background: #c3c3c0;
+  margin: 16px 0;
+}
+
+/* line 28, ../../scss/base/_text.scss */
+abbr {
+  border-bottom: 1px dotted #787772;
+  cursor: help;
+}
+
+/*------------------------------------*\
+    $UTILITY CLASSES
+\*------------------------------------*/
+/* Clearfix */
+/* line 6, ../../scss/base/_utility-classes.scss */
+.cf {
+  *zoom: 1;
+}
+
+/* line 9, ../../scss/base/_utility-classes.scss */
+.cf:before, .cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 14, ../../scss/base/_utility-classes.scss */
+.cf:after {
+  clear: both;
+}
+
+/* Completely remove from the flow and screen readers. */
+/* line 19, ../../scss/base/_utility-classes.scss */
+.is-hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Completely remove from the flow but leave available to screen readers. */
+/* line 25, ../../scss/base/_utility-classes.scss */
+.is-vishidden {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Floats */
+/* line 36, ../../scss/base/_utility-classes.scss */
+.u-right {
+  float: right;
+}
+
+/* line 48, ../../scss/base/_utility-classes.scss */
+.u-left {
+  float: left;
+}
+
+/* Text-Align */
+/* line 53, ../../scss/base/_utility-classes.scss */
+.u-align-right {
+  text-align: right;
+}
+
+/* line 57, ../../scss/base/_utility-classes.scss */
+.u-align-center {
+  text-align: center;
+}
+
+/* line 61, ../../scss/base/_utility-classes.scss */
+.u-align-left {
+  text-align: left;
+}
+
+/* Flexbox */
+/* line 67, ../../scss/base/_utility-classes.scss */
+.u-container {
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1200px;
+}
+
+/* line 73, ../../scss/base/_utility-classes.scss */
+.u-flex-parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Spacing */
+/* line 81, ../../scss/base/_utility-classes.scss */
+.u-stack--default {
+  margin: 0 0 16px 0;
+}
+
+/* line 85, ../../scss/base/_utility-classes.scss */
+.u-stack--l {
+  margin: 0 0 32px 0;
+}
+
+/* Display Classes */
+@media all and (max-width: 46.8em) {
+  /* line 90, ../../scss/base/_utility-classes.scss */
+  .hide-small {
+    display: none;
+  }
+}
+
+@media all and (min-width: 46.8em) and (max-width: 50em) {
+  /* line 96, ../../scss/base/_utility-classes.scss */
+  .hide-med {
+    display: none;
+  }
+}
+
+@media all and (min-width: 50em) {
+  /* line 102, ../../scss/base/_utility-classes.scss */
+  .hide-large {
+    display: none;
+  }
+}
+
+/* No files to import found in components/*\/*.* */

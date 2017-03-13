@@ -1,0 +1,17 @@
+// Import fonts
+@import "compass/css3/font-face";
+
+// Roboto Slab, bold only
+@include font-face("Roboto Slab", font-files("RobotoSlab-Bold/RobotoSlab-Bold-webfont.woff", "RobotoSlab-Bold/RobotoSlab-Bold-webfont.ttf", "RobotoSlab-Bold/RobotoSlab-Bold-webfont.svg"), "RobotoSlab-Bold/RobotoSlab-Bold-webfont.eot", bold, normal);
+
+// Open Sans Regular
+@include font-face("Open Sans", font-files("OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.woff", "OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.ttf", "OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.svg"), "OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.eot", normal, normal);
+
+// Open Sans Bold
+@include font-face("Open Sans", font-files("OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.woff", "OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.ttf", "OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.svg"), "OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.eot", bold, normal);
+
+// Open Sans Bold Italic
+@include font-face("Open Sans", font-files("OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.woff", "OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.ttf", "OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.svg"), "OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.eot", bold, italic);
+
+// Open Sans Italic
+@include font-face("Open Sans", font-files("OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.woff", "OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.ttf", "OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.svg"), "OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.eot", normal, italic);

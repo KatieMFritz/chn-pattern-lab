@@ -1,0 +1,129 @@
+/*------------------------------------*\
+    $UTILITY CLASSES
+\*------------------------------------*/
+
+/* Clearfix */
+.cf {
+    *zoom: 1;
+}
+.cf:before, .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* Completely remove from the flow and screen readers. */
+.is-hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Completely remove from the flow but leave available to screen readers. */
+.is-vishidden {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Floats */
+.u-right {
+  float: right;
+}
+
+// .u-right-old {
+//   float: right;
+//   margin-right: 0 !important;
+//   margin-top: 0 !important;;
+//   padding-right: 0 !important;
+//   padding-top: 0 !important;
+// }
+
+.u-left {
+  float: left;
+}
+
+/* Text-Align */
+.u-align-right {
+  text-align: right;
+}
+
+.u-align-center {
+  text-align: center;
+}
+
+.u-align-left {
+  text-align: left;
+}
+
+/* Flexbox */
+
+.u-container {
+  margin: 0 auto;
+  padding: 0 $space-default;
+  max-width: 1200px;
+}
+
+.u-flex-parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Spacing */
+.u-stack--default {
+  margin: $space-stack-default;
+}
+
+.u-stack--l {
+  margin: $space-stack-l;
+}
+
+/* Display Classes */
+.hide-small {
+  @media all and (max-width: $bp-med) {
+    display: none;
+  }
+}
+
+.hide-med {
+  @media all and (min-width: $bp-med) and (max-width: $bp-large) {
+    display: none;
+  }
+}
+
+.hide-large {
+  @media all and (min-width: $bp-large) {
+    display: none;
+  }
+}
+
+// //States
+// .valid {
+//   color: $valid;
+// }
+
+// .error {
+//   color: $error;
+// }
+
+// .warning {
+//     color: $warning;
+// }
+
+// .information {
+//     color: $information;
+// }
+
+// .font-secondary {
+//     font-family: $font-secondary;
+// }
+
+

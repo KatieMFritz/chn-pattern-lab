@@ -1,0 +1,16 @@
+.c-header {
+  .c-header__img {
+    max-width: 100%;
+  }
+}
+
+.c-searchbox {
+  border: 1px solid $gray-lightest;
+  color: $gray-dark;
+  font-size: 1rem;
+  padding: $space-inset-squish-m;
+  &:focus {
+    border-color: $gray-light;
+    outline: none;
+  }
+}

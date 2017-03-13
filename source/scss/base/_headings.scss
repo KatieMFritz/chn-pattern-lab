@@ -1,0 +1,29 @@
+/* Headings */
+/*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
+h1 {
+  border-bottom: $border-med dotted $red;
+  color: $red;
+  font-family: $font-secondary;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: $gray-light;
+  font-family: $font-secondary;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: $gray-light;
+  font-family: $serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+h4 {
+  color: $gray-light;
+  font-family: $serif;
+  font-weight: bold;
+}

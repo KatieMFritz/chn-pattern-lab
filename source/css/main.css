@@ -1,0 +1,88 @@
+/*
+Error: It's not clear which file to import for '@import "base/*"'.
+       Candidates:
+         base/_animation.scss
+         base/_forms.scss
+         base/_global-classes.scss
+         base/_headings.scss
+         base/_links.scss
+         base/_lists.scss
+         base/_main.scss
+         base/_media.scss
+         base/_tables.scss
+         base/_text.scss
+         base/_animation.scss
+         base/_forms.scss
+         base/_global-classes.scss
+         base/_headings.scss
+         base/_links.scss
+         base/_lists.scss
+         base/_main.scss
+         base/_media.scss
+         base/_tables.scss
+         base/_text.scss
+       Please delete or rename all but one of these files.
+        on line 6 of C:/wamp64/www/chn/source/scss/main.scss
+
+1: @import "globals/reset";
+2: @import "globals/variables";
+3: @import "globals/colors";
+4: @import "globals/utilities";
+5: 
+6: @import "base/*";
+7: 
+8: 
+9: // Typography
+10: body {
+11:   color: $color-text;
+
+Backtrace:
+C:/wamp64/www/chn/source/scss/main.scss:6
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:45:in `import'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:20:in `render'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+C:/RailsInstaller/Ruby2.3.0/bin/compass:22:in `load'
+C:/RailsInstaller/Ruby2.3.0/bin/compass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: It's not clear which file to import for '@import \"base/*\"'.\A        Candidates:\A          base/_animation.scss\A          base/_forms.scss\A          base/_global-classes.scss\A          base/_headings.scss\A          base/_links.scss\A          base/_lists.scss\A          base/_main.scss\A          base/_media.scss\A          base/_tables.scss\A          base/_text.scss\A          base/_animation.scss\A          base/_forms.scss\A          base/_global-classes.scss\A          base/_headings.scss\A          base/_links.scss\A          base/_lists.scss\A          base/_main.scss\A          base/_media.scss\A          base/_tables.scss\A          base/_text.scss\A        Please delete or rename all but one of these files.\A         on line 6 of C:/wamp64/www/chn/source/scss/main.scss\A \A 1: @import \"globals/reset\";\A 2: @import \"globals/variables\";\A 3: @import \"globals/colors\";\A 4: @import \"globals/utilities\";\A 5: \A 6: @import \"base/*\";\A 7: \A 8: \A 9: // Typography\A 10: body {\A 11:   color: $color-text;"; }

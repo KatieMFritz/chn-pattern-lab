@@ -1,0 +1,25 @@
+// Colors
+
+// TODO: Consider changing to contextual colors (primary, secondary-dark, secondary-light, etc.)
+
+$gray-dark: #231f20;
+$gray-light: #787772;
+$gray-lightest: lighten($gray-light, 30%);
+$red: #d7153b;
+$tan: #e7e4d0;
+$tan-light: #f2f1e9;
+$teal: #8dbcb0;
+$white: #ffffff;
+
+$color-text: #444;
+
+$color-link: $red;
+$color-link-hover: darken($color-link, 10%);
+
+$primary-nav-bg: $red;
+$primary-nav-text: $white;
+$primary-nav-text-hover: $tan;
+
+$secondary-nav-bg: $tan;
+$secondary-nav-text: $red;
+$secondary-nav-text-hover: darken($secondary-nav-text, 20%);

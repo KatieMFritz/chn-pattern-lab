@@ -1,0 +1,14 @@
+.c-contact-box {
+  background-color: $tan;
+  padding: $space-inset-m;
+  .c-contact-box__title {
+    border-bottom: 2px dotted $gray-dark;
+    margin: $space-stack-m;
+  }
+  .c-contact-box__details {
+    margin: $space-stack-s;
+  }
+  .c-contact-box__img {
+    padding: $space-inset-s;
+  }
+}

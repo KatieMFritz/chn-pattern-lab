@@ -1,0 +1,13 @@
+.c-accordion {
+  padding: $space-inset-m;
+  .c-accordion__title {
+    @extend h3;
+  }
+  .c-accordion__body {
+    padding-top: $space-m;
+    padding-left: $space-l;
+    * {
+    margin: $space-stack-s;
+    }
+  }
+}
