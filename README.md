@@ -1,11 +1,14 @@
-![license](https://img.shields.io/github/license/pattern-lab/edition-php-twig-standard.svg)
-[![Packagist](https://img.shields.io/packagist/v/pattern-lab/edition-twig-standard.svg)](https://packagist.org/packages/pattern-lab/edition-mustache-webdesignday) [![Gitter](https://img.shields.io/gitter/room/pattern-lab/php.svg)](https://gitter.im/pattern-lab/php)
-
 # Customizations
 
 - Compass
 - sass-globbing plugin for Compass
 - using WampServer64 instead of built-in server
+
+* * *
+
+![license](https://img.shields.io/github/license/pattern-lab/edition-php-twig-standard.svg)
+[![Packagist](https://img.shields.io/packagist/v/pattern-lab/edition-twig-standard.svg)](https://packagist.org/packages/pattern-lab/edition-mustache-webdesignday) [![Gitter](https://img.shields.io/gitter/room/pattern-lab/php.svg)](https://gitter.im/pattern-lab/php)
+
 
 # Pattern Lab Standard Edition for Twig
 
